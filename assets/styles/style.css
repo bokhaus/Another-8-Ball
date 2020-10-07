@@ -18,13 +18,21 @@
   }
 
   body{
-      background-color: #3e3e60;
+      background-color: #753232;
       color:white;
       font-family: 'Roboto Mono', monospace;
   }
-  img{
-      padding-left:2em;
+  .row {
+    display: flex;
+    justify-content: space-around;
+    /* outline: 2px solid red; */
   }
+
+  img{
+      /* padding-left:12em; */
+      /* outline: 2px solid antiquewhite; */
+  }
+
   button{
       margin-top: 1em;
   }
