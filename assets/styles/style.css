@@ -3,7 +3,7 @@
     animation: shake 1s;
 }
 
-  @keyframes shake {
+@keyframes shake {
     0% { transform: translate(4px, 4px) rotate(0deg); }
     10% { transform: translate(-4px, -4px) rotate(-1deg); }
     20% { transform: translate(-7px, 0px) rotate(1deg); }
@@ -15,40 +15,63 @@
     80% { transform: translate(-4px, -4px) rotate(1deg); }
     90% { transform: translate(4px, 4px) rotate(0deg); }
     100% { transform: translate(4px, -4px) rotate(-1deg); }
-  }
+}
 
-  body{
-      background-color: #753232;
-      color:white;
-      font-family: 'Roboto Mono', monospace;
-  }
-  .row {
+body{
+    background-color: #753232;
+    color:white;
+    font-family: 'Roboto Mono', monospace;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.center{
+    width: 100%;
+    text-align: center;
+    padding-top: 5em;
+    /* outline: 2px solid floralwhite; */
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
     /* outline: 2px solid red; */
-  }
+}
 
-  img{
-      /* padding-left:12em; */
-      /* outline: 2px solid antiquewhite; */
-  }
+img {
+    padding-top: 2em;
+}
+button{
+    margin-top: 1em;
+    height: 5rem;
+    width: 9rem;
+}
 
-  button{
-      margin-top: 1em;
-  }
 
-  .center{
-      text-align: center;
-      padding-top:2em;
-      
-  }
+h1{
+    font-size: 4em;
+}
 
-  h1{
-      font-size: 4em;
-  }
+#message{
+    font-size: 2em;
+    margin-top: 2em;
+    /* margin-left:2em; */
+}
 
-  #message{
-      font-size: 2em;
-      margin-top: 4em;
-      margin-left:2em;
-  }
+@media only screen and (max-width: 408px) {
+    .btn {
+        margin: 5rem 0;
+        height: 5rem;
+        width: 100%;
+        font-size: 3rem;
+        /* outline: 10px solid pink; */
+    }
+    .row {
+
+    }
+}
