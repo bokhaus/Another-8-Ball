@@ -64,14 +64,27 @@ h1{
 }
 
 @media only screen and (max-width: 408px) {
+    .center {
+        padding-top: 1rem;
+    }
     .btn {
-        margin: 5rem 0;
+        margin: 1rem 0;
         height: 5rem;
         width: 100%;
-        font-size: 3rem;
+        font-size: 2rem;
         /* outline: 10px solid pink; */
     }
-    .row {
-
+    h1 {
+        font-size: 2rem;
+        /* padding-top: .5rem; */
+        /* outline: 10px solid pink; */
+    }
+    img {
+        height: 12rem;
+    }
+    #message{
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+        /* margin-left:2em; */
     }
 }
