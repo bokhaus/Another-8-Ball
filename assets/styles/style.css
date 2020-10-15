@@ -63,7 +63,19 @@ h1{
     /* margin-left:2em; */
 }
 
+@media screen and (max-width: 991px) {
+    /* start of large tablet styles */
+    
+}
+
+@media screen and (max-width: 767px) {
+/* start of medium tablet styles */
+
+}
+
+
 @media only screen and (max-width: 481px){
+    /* start of phone styles */
     .center {
         padding-top: 1rem;
     }
@@ -76,7 +88,7 @@ h1{
     }
     h1 {
         font-size: 2rem;
-        /* padding-top: .5rem; */
+        padding-top: 2rem;
         /* outline: 10px solid pink; */
     }
     img {
@@ -89,7 +101,7 @@ h1{
         /* margin-left:2em; */
     }
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 380px) {
     .center {
         padding-top: 1rem;
     }
