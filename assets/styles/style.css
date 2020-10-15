@@ -63,7 +63,7 @@ h1{
     /* margin-left:2em; */
 }
 
-@media only screen and (max-width: 441px){
+@media only screen and (max-width: 481px){
     .center {
         padding-top: 1rem;
     }
@@ -89,7 +89,7 @@ h1{
         /* margin-left:2em; */
     }
 }
-@media only screen and (max-width: 336px) {
+@media only screen and (max-width: 360px) {
     .center {
         padding-top: 1rem;
     }
