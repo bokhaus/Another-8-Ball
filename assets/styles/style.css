@@ -63,12 +63,12 @@ h1{
     /* margin-left:2em; */
 }
 
-@media only screen and (max-width: 441px) {
+@media only screen and (max-width: 441px){
     .center {
         padding-top: 1rem;
     }
     .btn {
-        margin: 1rem 0;
+        margin:  0;
         height: 5rem;
         width: 100%;
         font-size: 2rem;
@@ -80,16 +80,16 @@ h1{
         /* outline: 10px solid pink; */
     }
     img {
-        height: 19rem;
+        height: 16rem;
     }
     #message{
         font-size: 1.5rem;
-        margin-top: 1.5rem;
+        margin-top: 1rem;
         text-align: center;
         /* margin-left:2em; */
     }
 }
-@media only screen and (min-width: 336px) {
+@media only screen and (max-width: 336px) {
     .center {
         padding-top: 1rem;
     }
